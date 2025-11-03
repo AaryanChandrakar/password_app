@@ -16,7 +16,7 @@ pipeline {
         }
         stage('Build') {
             steps {
-                bat 'python program.py'
+                bat 'python password_app.py'
             }
         }
 
